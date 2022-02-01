@@ -9,9 +9,9 @@ body {
   height: 100vh;
 }
 
-.fade_in_late {
+/* .fade_in_late {
   animation: fadein 5s;
-}
+} */
 
 .top_bar {
   z-index: 2;
@@ -22,7 +22,7 @@ body {
   background-image: url("images/top_bar.png");
   background-size: 100% 100%;
   display: block;
-  animation: fadein 1s;
+  /* animation: fadein 1s; */
 }
 
 .top_bar_house_logo {
@@ -78,10 +78,10 @@ body {
   object-fit: cover;
   display: block;
   background-image: url("images/S__14975015.png");
-  animation: fadein 1s;
+  /* animation: fadein 1s; */
 }
 .main_banner_contents {
-  animation: fadein 5s;
+  /* animation: fadein 5s; */
 }
 @keyframes fadein {
     from { opacity: 0; }
