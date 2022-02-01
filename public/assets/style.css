@@ -9,7 +9,12 @@ body {
   height: 100vh;
 }
 
+.fade_in_late {
+  animation: fadein 5s;
+}
+
 .top_bar {
+  z-index: 2;
   position: fixed;
   box-sizing: border-box;
   width: 100%;
@@ -17,6 +22,7 @@ body {
   background-image: url("images/top_bar.png");
   background-size: 100% 100%;
   display: block;
+  animation: fadein 1s;
 }
 
 .top_bar_house_logo {
@@ -66,13 +72,22 @@ body {
 .main_banner {
   height: 543.68px;
   width: 100%;
-  background-image: url("images/S__14975015.png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   object-fit: cover;
   display: block;
+  background-image: url("images/S__14975015.png");
+  animation: fadein 1s;
 }
+.main_banner_contents {
+  animation: fadein 5s;
+}
+@keyframes fadein {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
 @media (max-width: 767px) {
   .main_banner {
     background-image: url("images/S__14975015_mobile.png");
@@ -81,7 +96,7 @@ body {
 
 .ordermaid_text_container {
   position: absolute;
-  top: 150px;
+  top: 190px;
   left: 59.61px;
   text-align: center;
 }
@@ -91,7 +106,7 @@ body {
 }
 .organic_text_container {
   position: absolute;
-  top: 272.51px;
+  top: 312.51px;
   left: 86.03px;
   text-align: center;
 }
