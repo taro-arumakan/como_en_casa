@@ -162,3 +162,321 @@ body {
   display: block;
   line-height: 44px;
 }
+
+.food_section {
+  text-align: center;
+}
+.food_picture {
+  margin-top: 35.11;
+  margin-left: auto;
+  margin-right: auto;
+}
+.food_picture img {
+  width: 355.55px;
+  height: 209.49px;
+}
+.about_food_text {
+  text-align: center;
+  margin-right: auto;
+  margin-left: auto;
+}
+.about_food_title {
+  font-family: Futura;
+  letter-spacing: 5.16px;
+  margin-top: 32.42px;
+  font-size: 43px;
+  color: #98D5DA;
+}
+
+.about_food_subtitle {
+  font-size: 15px;
+  color: #9E7F5F;
+  margin-top: 15px;
+}
+.about_food_strong {
+  font-size: 25px;
+  color: #9E7F5F;
+  margin-top: 13px;
+}
+.about_food_details {
+  font-size: 15px;
+  margin-top: 26px;
+  color: #696969;
+  line-height: 31px;
+  width: 318px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1000px) {
+  .food_section {
+    height: 466px;
+    display: flex;
+  }
+  .food_picture {
+    flex: 50%;
+    margin-top: 81.7px;
+  }
+  .food_picture img {
+    width: 507.5px;
+    height: 299.0px;
+  }
+
+  .about_food_text {
+    flex: 50%;
+    /* margin-right: 115.5px; */
+  }
+  .about_food_details {
+    width: 377px;
+  }
+}
+
+.age_section {
+  margin-left: 28px;
+  margin-right: 28px;
+  border-top: 1px dashed #9E7F5F;
+  border-bottom: 1px dashed #9E7F5F;
+  margin-top: 34.2px;
+  padding-bottom: 34.2px;
+  text-align: center;
+}
+
+.age_picture {
+  margin-top: 34.2px;
+  margin-right: auto;
+  margin-left: auto;
+}
+.age_picture img {
+  width: 216px;
+  height: 145px;
+}
+
+.age_title {
+  font-family: Futura;
+  letter-spacing: 5.16px;
+  margin-top: 32.42px;
+  font-size: 43px;
+  color: #98D5DA;
+}
+
+.age_subtitle {
+  margin-top: 8.83px;
+  font-size: 15px;
+  color: #98D5DA;
+}
+.age_details_strong {
+  margin-top: 18px;
+  font-size: 20px;
+  color: #696969;
+}
+.age_details_weak {
+  margin-top: 24px;
+  font-size: 16px;
+  color: #696969;
+}
+
+@media (min-width: 1000px) {
+  .age_section {
+    display: flex;
+    direction: rtl;
+    height: 226px;
+    padding-bottom: 0px;
+  }
+  .age_picture {
+    flex: 50%;
+    float: right;
+    margin-top: 22px;
+  }
+  .age_picture img {
+    width: 273px;
+    height: 182px;  
+  }
+
+  .age_text {
+    flex: 50%;
+    margin-left: 64px;
+  }
+}
+
+.age_subtitle {
+  margin-top: 8.83px;
+}
+.age_details_strong {
+  margin-top: 10px;
+}
+.age_details_weak {
+  margin-top: 10px;
+}
+
+.price_section {
+  margin-top: 40px;
+  margin-left: 28.63px;
+  margin-right: 28.63px;
+  text-align: center;
+  border-bottom: 1px dashed #9E7F5F;
+  padding-bottom: 34.2px;
+}
+.price_section span{
+  display: block;
+}
+.price_picture img{
+  width: 321px;
+  height: 316px;
+}
+.price_title {
+  font-family: Futura;
+  letter-spacing: 5.16px;
+  margin-top: 32.42px;
+  font-size: 43px;
+  color: #98D5DA;
+}
+.price_subtitle {
+  margin-top: 34.41px;
+  color: #9E7F5F;
+  font-size: 18px;
+}
+.price_details {
+  margin-top: 30px;
+  color: #696969;
+  font-size: 22px;
+  line-height: 45px;
+}
+.price_tips {
+  margin-top: 59px;
+  color: #9E7F5F;
+  font-size: 22px;
+  text-decoration: underline;
+}
+.price_with_tips_arrow {
+  margin-top: 15.74px;
+}
+.price_with_tips {
+  margin-top: 11.44px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  width: 334px;
+  height: 129px;
+  background-image: url("images/green_rect.png");
+  background-size: 100% 100%;
+}
+.price_with_tips_for {
+  color: #696969;
+  font-size: 18px;
+}
+.price_with_tips_monthly_price {
+  color: #0A6450;
+  font-size: 48px;
+}
+.price_with_tips_shibuya {
+  color: #696969;
+  font-size: 15px;
+}
+.price_included {
+  width: 318px;
+  height: 62px;
+  color: #696969;
+  font-size: 14px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 1000px) {
+  .price_section {
+    display: flex;
+    /* height: 226px; */
+    padding-bottom: 60px;
+  }
+  .price_picture {
+    flex: 50%;
+    margin-top: 101px;
+  }
+  .price_picture img {
+    width: 587px;
+    height: 577.86px;  
+  }
+
+  .price_text {
+    flex: 50%;
+    margin-left: 64px;
+  }
+}
+
+.childcare_fee_support_section {
+  text-align: center;
+  width: 318px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-top: 2px solid #0A6450;
+  border-bottom: 2px solid #0A6450;
+  color: #0A6450;
+}
+.childcare_fee_support_title_section {
+  margin-top: 40px;
+  background-image: url("images/casa.png");
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-size: 76.56px 76.37px;
+  height: 76.37px;
+  padding: 20px 0;
+}
+.childcare_fee_support_title {
+  font-size: 18px;
+}
+.childcare_fee_support_shibuya {
+  font-size: 15px;
+}
+.childcare_fee_support_amount {
+  margin-top: 17px;
+  font-size: 22px;
+}
+.childcare_fee_support_details {
+  margin-left: 28.63px;
+  margin-right: 28.63px;
+  margin-top: 23px;
+  font-size: 15px;
+  line-height: 31px;
+}
+.childcare_fee_support_notes {
+  margin-left: 28.63px;
+  margin-right: 28.63px;
+  margin-top: 35px;
+  font-size: 12px;
+}
+.childcare_fee_support_notes span {
+  display: block;
+}
+
+.footer_section {
+  background-image: url("images/footer_background.png");
+  box-sizing: border-box;
+  width: 100%;
+  height: 292.02px;
+  background-size: 100% 100%;
+  display: block;
+  text-align: center;
+  margin-top: 80px;
+}
+.footer_logo {
+  position: relative;
+  top: -34px;
+}
+.footer_logo img {
+  width: 113px;
+  height: 113px;
+}
+.footer_url_here {
+  margin-top: 32px;
+}
+.footer_url_here img {
+  width:  263px;
+  height: 62px;
+}
+.footer_url {
+  margin-top: 17px;
+  font-size: 14px;
+  color: #0A6450;
+}
