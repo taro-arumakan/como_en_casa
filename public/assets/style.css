@@ -9,10 +9,6 @@ body {
   height: 100vh;
 }
 
-/* .fade_in_late {
-  animation: fadein 5s;
-} */
-
 .top_bar {
   z-index: 2;
   position: fixed;
@@ -22,7 +18,6 @@ body {
   background-image: url("images/top_bar.png");
   background-size: 100% 100%;
   display: block;
-  /* animation: fadein 1s; */
 }
 
 .top_bar_house_logo {
@@ -70,7 +65,7 @@ body {
 
 
 .main_banner {
-  height: 543.68px;
+  height: 80%;
   width: 100%;
   background-size: cover;
   background-repeat: no-repeat;
@@ -78,14 +73,6 @@ body {
   object-fit: cover;
   display: block;
   background-image: url("images/S__14975015.png");
-  /* animation: fadein 1s; */
-}
-.main_banner_contents {
-  /* animation: fadein 5s; */
-}
-@keyframes fadein {
-    from { opacity: 0; }
-    to   { opacity: 1; }
 }
 
 @media (max-width: 767px) {
@@ -96,7 +83,7 @@ body {
 
 .ordermaid_text_container {
   position: absolute;
-  top: 190px;
+  top: 30%;
   left: 59.61px;
   text-align: center;
 }
@@ -106,7 +93,7 @@ body {
 }
 .organic_text_container {
   position: absolute;
-  top: 312.51px;
+  top: 45%;
   left: 86.03px;
   text-align: center;
 }
@@ -125,7 +112,7 @@ body {
   position: absolute;
   text-align: center;
   left: 45px;
-  top: 427.59px;
+  top: 65%;
   background-image: url("images/come_join_us@2x.png");
   background-size: 100%;
   width: 395.22px;
@@ -135,7 +122,6 @@ body {
 @media (max-width: 767px) {
   .come_join_us {
     left: 36.28;
-    top: 433.37px;
     width: 297.33px;
     height: 88.307px;
     background-image: url("images/come_join_us.png");
