@@ -80,7 +80,11 @@ body {
     background-image: url("images/S__14975015_mobile.png");
   }
 }
-
+@media (min-width: 1024px) {
+  .main_banner_contents {
+    zoom: 120%;
+  }
+}
 .ordermaid_text_container {
   position: absolute;
   top: 30%;
