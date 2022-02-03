@@ -113,31 +113,44 @@ body {
   text-align: center;
   left: 45px;
   top: 65%;
-  background-image: url("images/come_join_us@2x.png");
+  background-image: url("images/come_join_us_background.png");
   background-size: 100%;
   width: 395.22px;
-  height: 117.32px;
+  height: 90px;
 }
-
+.come_join_us_text_fistline {
+  padding-top: 18.98px;
+  color: #696969;
+  font-size: 19px;
+  display: block;
+}
+.come_join_us_comoencasa {
+  color: #0A6450;
+  font-size: 30px;
+  font-weight: bold;
+  display: inline;
+}
+.come_join_us_text {
+  color: #696969;
+  font-size: 19px;
+  display: inline;
+}
 @media (max-width: 767px) {
   .come_join_us {
     left: 36.28;
     width: 297.33px;
-    height: 88.307px;
-    background-image: url("images/come_join_us.png");
+    height: 67.71px;
   }
-}
-
-.come_join_us_text {
-  padding-top: 18.98px;
-  color: #696969;
-  font-size: 19px;
-}
-
-.come_join_us_como_text {
-  color: #0A6450;
-  font-size: 31px;
-  font-weight: bold;
+  .come_join_us_text_fistline {
+    padding-top: 14px;
+    font-size: 14px;
+  }
+  .come_join_us_comoencasa {
+    font-size: 22px;
+  }
+  .come_join_us_text {
+    font-size: 14px;
+  }
 }
 
 .beginners {
