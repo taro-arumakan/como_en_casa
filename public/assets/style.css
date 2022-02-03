@@ -63,7 +63,6 @@ body {
   }
 }
 
-
 .main_banner {
   height: 80%;
   width: 100%;
@@ -78,11 +77,6 @@ body {
 @media (max-width: 767px) {
   .main_banner {
     background-image: url("images/S__14975015_mobile.png");
-  }
-}
-@media (min-width: 1024px) {
-  .main_banner_contents {
-    zoom: 120%;
   }
 }
 .ordermaid_text_container {
@@ -506,4 +500,9 @@ body {
   margin-top: 17px;
   font-size: 14px;
   color: #0A6450;
+}
+@media (min-width: 1280px) {
+  #como_en_casa {
+    zoom: 120%;
+  }
 }
