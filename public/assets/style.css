@@ -63,6 +63,15 @@ body {
   }
 }
 
+.blink_me {
+  animation: blinker 3.5s linear infinite;
+}
+@keyframes blinker {
+  50% {
+    opacity: 0.11;
+  }
+}
+
 .main_banner {
   height: 80%;
   width: 100%;
