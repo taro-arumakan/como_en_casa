@@ -1,0 +1,245 @@
+<!DOCTYPE html
+  PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+  <title>コモエンカサ　コンセプト</title>
+  <style type="text/css">
+    <!--
+    body {
+      font: 100%/1.4 Verdana, Arial, Helvetica, sans-serif;
+      margin: 0;
+      padding: 0;
+      color: #000;
+      background-image: url(image/20288-gyrosigma-light-blue-background.jpg);
+    }
+
+    /* ~~ Element/tag selectors ~~ */
+    ul,
+    ol,
+    dl {
+      /* Due to variations between browsers, it's best practices to zero padding and margin on lists. For consistency, you can either specify the amounts you want here, or on the list items (LI, DT, DD) they contain. Remember that what you do here will cascade to the .nav list unless you write a more specific selector. */
+      padding: 0;
+      margin: 0;
+    }
+
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6,
+    p {
+      margin-top: 0;
+      /* removing the top margin gets around an issue where margins can escape from their containing div. The remaining bottom margin will hold it away from any elements that follow. */
+      padding-right: 15px;
+      padding-left: 15px;
+      /* adding the padding to the sides of the elements within the divs, instead of the divs themselves, gets rid of any box model math. A nested div with side padding can also be used as an alternate method. */
+      text-align: center;
+    }
+
+    a img {
+      /* this selector removes the default blue border displayed in some browsers around an image when it is surrounded by a link */
+      border: none;
+    }
+
+    /* ~~ Styling for your site's links must remain in this order - including the group of selectors that create the hover effect. ~~ */
+    a:link {
+      color: #42413C;
+      text-decoration: underline;
+      /* unless you style your links to look extremely unique, it's best to provide underlines for quick visual identification */
+    }
+
+    a:visited {
+      color: #6E6C64;
+      text-decoration: underline;
+    }
+
+    a:hover,
+    a:active,
+    a:focus {
+      /* this group of selectors will give a keyboard navigator the same hover experience as the person using a mouse. */
+      text-decoration: none;
+    }
+
+    /* ~~ this fixed width container surrounds the other divs ~~ */
+    .container {
+      width: 795px;
+      background-color: #FFFFFF;
+      margin: 0 auto;
+      /* the auto value on the sides, coupled with the width, centers the layout */
+    }
+
+    /* ~~ the header is not given a width. It will extend the full width of your layout. It contains an image placeholder that should be replaced with your own linked logo ~~ */
+    .header {
+      background-image: none;
+      text-align: center;
+      background-color: #FFF;
+      padding-bottom: 1px;
+      font-size: x-small;
+      color: #9999FF;
+    }
+
+    /* ~~ This is the layout information. ~~ 
+
+1) Padding is only placed on the top and/or bottom of the div. The elements within this div have padding on their sides. This saves you from any "box model math". Keep in mind, if you add any side padding or border to the div itself, it will be added to the width you define to create the *total* width. You may also choose to remove the padding on the element in the div and place a second div within it with no width and the padding necessary for your design.
+
+*/
+
+    .content {
+      padding: 10px 0;
+      text-align: center;
+    }
+
+    /* ~~ The footer ~~ */
+    .footer {
+      padding: 10px 0;
+    }
+
+    /* ~~ miscellaneous float/clear classes ~~ */
+    .fltrt {
+      /* this class can be used to float an element right in your page. The floated element must precede the element it should be next to on the page. */
+      float: right;
+      margin-left: 8px;
+    }
+
+    .fltlft {
+      /* this class can be used to float an element left in your page. The floated element must precede the element it should be next to on the page. */
+      float: left;
+      margin-right: 8px;
+    }
+
+    .clearfloat {
+      /* this class can be placed on a <br /> or empty div as the final element following the last floated div (within the #container) if the #footer is removed or taken out of the #container */
+      clear: both;
+      height: 0;
+      font-size: 1px;
+      line-height: 0px;
+    }
+
+    .container .footer {
+      font-size: x-small;
+    }
+
+    .container .footer {
+      color: #CCC;
+      text-align: center;
+    }
+    -->
+  </style>
+  <link href="css/blink.css" rel="stylesheet" type="text/css" />
+  <style type="text/css">
+    .header1 {
+      background-image: none;
+      text-align: center;
+      background-color: #FFF;
+      padding-bottom: 1px;
+      font-size: x-small;
+      color: #9999FF;
+    }
+  </style>
+
+  <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js"></script>
+
+  <!-- Optionaly include easing and/or mousewheel plugins -->
+  <script type="text/javascript" src="gallery/fancybox/jquery.easing-1.3.pack.js"></script>
+  <script type="text/javascript" src="gallery/fancybox/jquery.mousewheel-3.0.6.pack.js"></script>
+
+  <!-- Add fancyBox -->
+  <link rel="stylesheet" href="gallery/fancybox/jquery.fancybox.css?v=2.0.3" type="text/css" media="screen" />
+  <script type="text/javascript" src="gallery/fancybox/jquery.fancybox.pack.js?v=2.0.3"></script>
+
+  <!-- Optionaly include button and/or thumbnail helpers -->
+  <link rel="stylesheet" href="gallery/fancybox/helpers/jquery.fancybox-buttons.css?v=2.0.3" type="text/css"
+    media="screen" />
+  <script type="text/javascript" src="gallery/fancybox/helpers/jquery.fancybox-buttons.js?v=2.0.3"></script>
+
+  <link rel="stylesheet" href="gallery/fancybox/helpers/jquery.fancybox-thumbs.css?v=2.0.3" type="text/css"
+    media="screen" />
+  <script type="text/javascript" src="gallery/fancybox/helpers/jquery.fancybox-thumbs.js?v=2.0.3"></script>
+  <script type="text/javascript">
+    $(document).ready(function () {
+      $(".fancybox").fancybox();
+    });
+  </script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    !function (f, b, e, v, n, t, s) {
+      if (f.fbq) return; n = f.fbq = function () {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0';
+      n.queue = []; t = b.createElement(e); t.async = !0;
+      t.src = v; s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '613232050019138');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none"
+      src="https://www.facebook.com/tr?id=613232050019138&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
+
+</head>
+
+<body>
+
+  <div class="container">
+    <div class="header">
+      <!-- end .header -->渋谷、表参道、青山での託児はコモエンカサにお任せ下さい！ <span class="header1">問い合わせ先：03-6432-9323</span>&nbsp;
+      　最新情報はフェイスブックでご覧下さい！<a
+        href="https://www.facebook.com/pages/%E3%82%B3%E3%83%A2%E3%82%A8%E3%83%B3%E3%82%AB%E3%82%B5%E8%A1%A8%E5%8F%82%E9%81%93%E3%82%AD%E3%83%83%E3%82%BA%E3%82%AF%E3%83%A9%E3%83%96/217925851691172?fref=ts"><img
+          src="image/fbtop.gif" alt="" width="26" height="28" /></a><br />
+      <a href="index.html"><img src="image/topcasa.jpg" width="781" height="345" /></a>
+      <p><a href="info.html" onmouseout="MM_swapImgRestore()"
+          onmouseover="MM_swapImage('concept','','image/00concept.jpg',1)"><img src="image/concept.jpg" alt="コンセプト"
+            name="concept" width="154" height="65" border="0" id="concept" /></a><a href="club.html"
+          onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('club','','image/00club.jpg',1)"><img
+            src="image/club.jpg" alt="comoencasa club" name="club" width="152" height="65" border="0" id="club" /></a><a
+          href="rates.html" onmouseout="MM_swapImgRestore()"
+          onmouseover="MM_swapImage('Ryoukin','','image/00ryoukin.jpg',1)"><img src="image/ryoukin.jpg" alt="料金"
+            name="Ryoukin" width="152" height="65" border="0" id="Ryoukin" /></a><a href="schedule.html"
+          onmouseout="MM_swapImgRestore()" onmouseover="MM_swapImage('Schedules','','image/00schedule.jpg',1)"><img
+            src="image/schedule.jpg" alt="スケジュール" name="Schedules" width="152" height="65" border="0"
+            id="Schedules" /></a><a href="access.html" onmouseout="MM_swapImgRestore()"
+          onmouseover="MM_swapImage('otoiawase','','image/00otoiawase.jpg',1)"><img src="image/otoiawase.jpg"
+            alt="お問合せマップ" name="otoiawase" width="153" height="65" border="0" id="otoiawase" /></a><br />
+      </p>
+    </div>
+    <div class="content"><img src="image/info.png" width="781" height="641" /><br />
+      <br />
+      <p><a class="fancybox" rel="group" href="gallery/01.jpg"><img src="gallery/01s.jpg" alt="" width="150"
+            height="100" /></a>
+        <a class="fancybox" rel="group" href="gallery/02.jpg"><img src="gallery/02s.jpg" alt="" width="150"
+            height="100" /></a>
+        <a class="fancybox" rel="group" href="gallery/03.jpg"><img src="gallery/03s.jpg" alt="" width="150"
+            height="100" /></a>
+      </p>
+      <p><a class="fancybox" rel="group" href="gallery/04.jpg"><img src="gallery/04s.jpg" alt="" width="150"
+            height="100" /></a>
+        <a class="fancybox" rel="group" href="gallery/05.jpg"><img src="gallery/05s.jpg" alt="" width="150"
+            height="100" /></a>
+        <a class="fancybox" rel="group" href="gallery/06.jpg"><img src="gallery/06s.jpg" alt="" width="150"
+            height="100" /></a>
+      </p>
+      <p><a class="fancybox" rel="group" href="gallery/07.jpg"><img src="gallery/07s.jpg" alt="" width="150"
+            height="100" /></a>
+        <a class="fancybox" rel="group" href="gallery/08.jpg"><img src="gallery/08s.jpg" alt="" width="150"
+            height="100" /></a>
+        <a class="fancybox" rel="group" href="gallery/09.jpg"><img src="gallery/09s.jpg" alt="" width="150"
+            height="100" /></a>
+      </p>
+    </div>
+    <div class="footer">
+      <!-- end .footer -->東京都渋谷区神宮前4-3-15　東京セントラル表参道　como en casa 表参道　託児所　プレスクール All rights reserved.
+    </div>
+    <!-- end .container -->
+  </div>
+</body>
+
+</html>

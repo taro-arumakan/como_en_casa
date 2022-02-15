@@ -1,0 +1,167 @@
+body {
+
+   background:#000;
+   font-family:'¥Ò¥é¥®¥Î³Ñ¥´ Pro W3','Hiragino Kaku Gothic Pro','¥á¥¤¥ê¥ª',Meiryo,'£Í£Ó £Ð¥´¥·¥Ã¥¯',sans-serif,"Osaka¡¾ÅùÉý";
+
+}
+
+.top_logo {
+border:solid #FFFF00;
+}
+
+
+#conts {
+width: 900px;
+height: 460px;
+margin: -230px 0px 0px -450px;
+left: 50%;
+top: 50%;
+position: absolute;
+}
+
+
+
+.span1 {display:none;}
+
+#menu {
+   padding:10px;
+}
+
+
+#menu_btn {
+width:900px;
+height:13px;  
+margin: 0; 
+padding :0;
+}
+#menu_btn ul { 
+margin: 0; 
+padding :0; 
+list-style-type : none; 
+}
+#menu_btn li { 
+display : inline; 
+padding :0; 
+margin:0 14px;
+float:left; 
+}
+#menu_btn #menu1 a {
+background-image:url(image/menu_01_off.gif);
+background-color:#000;
+background-repeat:no-repeat; 
+width:93px; 
+height:13px;
+margin:3px 0px;
+padding:0;
+display:block;
+}
+#menu_btn #menu1 a:hover {
+background-image:url(image/menu_01_on.gif);
+background-color:#000; 
+background-repeat:no-repeat;
+width:93px; 
+height:13px; 
+margin:3px 0px;
+padding:0;
+display:block;
+}
+#menu_btn #menu2 a {
+background-image:url(image/menu_02_off.gif); 
+background-color:#000;
+background-repeat:no-repeat; 
+width:107px; 
+height:13px;
+margin:3px 0px;
+padding:0;
+display:block;
+}
+#menu_btn #menu2 a:hover {
+background-image:url(image/menu_02_on.gif);
+background-color:#000; 
+background-repeat:no-repeat;
+width:107px; 
+height:13px; 
+margin:3px 0px;
+padding:0;
+display:block;
+}
+#menu_btn #menu3 a {
+background-image:url(image/menu_03_off.gif); 
+background-color:#000;
+background-repeat:no-repeat; 
+width:45px; 
+height:13px;
+margin:3px 0px;
+padding:0;
+display:block;
+}
+#menu_btn #menu3 a:hover {
+background-image:url(image/menu_03_on.gif);.
+background-color:#000; 
+background-repeat:no-repeat;
+width:45px;
+height:13px; 
+margin:3px 0px;
+padding:0;
+display:block;
+}
+#menu_btn #menu4 a {
+background-image:url(image/menu_04_off.gif); 
+background-color:#000;
+background-repeat:no-repeat; 
+width:82px;
+height:13px;
+margin:3px 0px;
+padding:0;
+display:block;
+}
+#menu_btn #menu4 a:hover {
+background-image:url(image/menu_04_on.gif);
+background-color:#000; 
+background-repeat:no-repeat;
+width:82px; 
+height:13px; 
+margin:3px 0px;
+padding:0;
+display:block;
+}
+#menu_btn #menu5 a {
+background-image:url(image/twitter_off.gif); 
+background-color:#000;
+background-repeat:no-repeat; 
+width:96px;
+height:18px;
+margin:0px; 
+padding:0;
+display:block;
+}
+#menu_btn #menu5 a:hover {
+background-image:url(image/twitter_on.gif);
+background-color:#000; 
+background-repeat:no-repeat;
+width:96px; 
+height:18px; 
+margin:0;
+padding:0;
+display:block;
+}
+#menu_btn #menu6 a {
+background-image:url(image/facebook_off.gif); 
+background-color:#000;
+background-repeat:no-repeat; 
+width:79px;
+height:17px;
+margin:0px; 
+padding:0;
+display:block;
+}
+#menu_btn #menu6 a:hover {
+background-image:url(image/facebook_on.gif);
+background-color:#000; 
+background-repeat:no-repeat;
+width:79px; 
+height:17px; 
+margin:0;
+padding:0;
+display:block;
+}
