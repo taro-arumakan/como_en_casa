@@ -1,0 +1,85 @@
+/* CSS Document */
+body {
+	margin: 0px 0px 0px 0px;
+	padding: 0px 0px 0px 0px;
+	font: 11px "Helvetica Neue", Helvetica, Verdana, Arial, sans-serif;
+	color: #6e7073;
+}
+
+
+ul, ol {
+	margin-bottom: 0px;
+}
+
+
+img {
+      border: none;
+}
+
+
+
+#featureBox {
+display:block;
+height:401px;
+margin-top:0
+padding:0px 0px 0px 0px;
+position:relative;
+width:780px;
+background: #fff;
+overflow:hidden;
+}
+
+.home{
+	background-color:#fff}
+
+.home #featureSquares {
+position: relative;
+float:right;
+display:block;
+width:100px;
+height:32px;
+margin-top:-60px;
+z-index:100;
+
+}
+
+.home #featureSquares ul {
+list-style-type: none;
+}
+
+.home #featureSquares img {
+z-index:20;
+position:relative;
+height:12px;
+}
+
+
+
+#featureSquares a {
+	cursor:pointer;
+	display:block;
+	float:left;
+	height:25px;
+	margin-right:6px;
+	margin-top:35px;
+	overflow:hidden;
+	text-indent:-9999px;
+	width:11px;
+}
+
+#featureSquares a.activeSlide {
+}
+
+#featureSquares a.activeSlide:hover {
+}
+
+#featureSquares a:hover {
+}
+
+#main_slides {
+background-color:#fff;
+height:400px;
+margin:0px;
+padding:0px;
+overflow:hidden;
+}
