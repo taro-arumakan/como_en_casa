@@ -372,7 +372,8 @@ function sendmail() {
 
 	$to = $GLOBALS['myMail'];
 	$subject = $GLOBALS['mailTitle'];
-	$header = "From:".mb_encode_mimeheader("【".$GLOBALS['sender']."】").$GLOBALS['myMail'];
+	$header = "From:".mb_encode_mimeheader("【".$GLOBALS['sender']."】<").$GLOBALS['myMail'].">\n";
+	$header .= "Reply-To:".mb_encode_mimeheader("【".$GLOBALS['sender']."】<").$GLOBALS['myMail'].">\n";
 
 	$message = $GLOBALS['mailText']."\n\n";
 	foreach($_SESSION['contents'] as $key => $value) {
@@ -399,7 +400,8 @@ function remail() {
 
 	$to = $_SESSION['remail'];
 	$subject = $GLOBALS['remailTitle'];
-	$header = "From:".mb_encode_mimeheader("【".$GLOBALS['sender']."】").$GLOBALS['myMail'];
+	$header = "From:".mb_encode_mimeheader("【".$GLOBALS['sender']."】<").$GLOBALS['myMail'].">\n";
+	$header .= "Reply-To:".mb_encode_mimeheader("【".$GLOBALS['sender']."】<").$GLOBALS['myMail'].">\n";
 
 	$message = $GLOBALS['remailTop']."\n\n";
 	foreach($_SESSION["contents"] as $key => $value) {
