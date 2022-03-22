@@ -1,13 +1,16 @@
 <html lang="en">
 
 <head>
-
+  <base href="http://localhost:8080/about_us/" />
   <!-- Google Tag Manager -->
-  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-  })(window,document,'script','dataLayer','GTM-KSQ9TF5');</script>
+  <script>(function (w, d, s, l, i) {
+      w[l] = w[l] || []; w[l].push({
+        'gtm.start':
+          new Date().getTime(), event: 'gtm.js'
+      }); var f = d.getElementsByTagName(s)[0],
+        j = d.createElement(s), dl = l != 'dataLayer' ? '&l=' + l : ''; j.async = true; j.src =
+          'https://www.googletagmanager.com/gtm.js?id=' + i + dl; f.parentNode.insertBefore(j, f);
+    })(window, document, 'script', 'dataLayer', 'GTM-KSQ9TF5');</script>
   <!-- End Google Tag Manager -->
 
   <meta charset="UTF-8">
@@ -17,6 +20,8 @@
   <meta name="robots" content="noindex" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" type="text/css" href="assets/style.css?version=20220207175700" />
+  <link rel="stylesheet" type="text/css" href="../css/style.css" />
+  <link rel="stylesheet" type="text/css" href="../css/sp.css" />
 
   <!-- Meta Pixel Code -->
   <script>
@@ -234,6 +239,75 @@
         </a>
       </div>
     </div>
+
+    <!-- /////////////  お問い合わせフォーム /////////////// -->
+    <section>
+      <div id="contact" class="content">
+        <div class="box cf bg_gr">
+          <div class="box_left2" style="padding-top: 30px" id="contact2">
+            <h3 class="form_title">メールフォーム</h3>
+            <p>お問い合わせ・ご相談・採用のお申込みはこちらから。まずはお気軽にご連絡ください。<br />
+              託児、見学のご予約はお電話でお願いします。<br />
+              <a href="tel:0364329323">03-6721-0312</a>
+            </p>
+            <form action="sendmail.php" method="POST">
+              <div class="" summary="個人情報">
+                <div id="mailfield">
+                  <dl class="mailform">
+                    <ul class="contact_form cf">
+                      <li class="form_left">
+                        <input type="hidden" name="お名前" data-unjoin="" value="" />
+                        <dt class="mfp">お名前 <span class="must">必須</span></dt>
+                        <dd class="mfp"><input type="text" name="お名前" size="15" required="required" /></dd>
+                      </li>
+                      <li class="form_right">
+                        <dt class="mfp">メールアドレス <span class="must">必須</span></dt>
+                        <dd class="mfp"><input type="email" data-type="email" data-parent="mailfield" name="メール" size="40"
+                            required="required" /></dd>
+                      </li>
+                    </ul>
+                    <ul class="contact_form">
+                      <li>
+                        <dt class="mfp">メッセージ本文 <span class="must">必須</span></dt>
+                        <dd><textarea name="メッセージ本文" rows="6" cols="60" data-max="100" data-min="10" required></textarea>
+                        </dd>
+                      </li>
+                    </ul>
+                  </dl>
+                </div>
+                <div class="mfp_buttons">
+                  <button type="submit">送信する</button>
+                </div>
+              </div>
+            </form>
+
+          </div>
+
+          <div class="box_right2" style="padding-top: 30px">
+            <h3 class="form_title">お問い合わせ情報</h3>
+            <table class="contact_info">
+              <tr>
+                <th><img src="../img/address.png" alt="住所"></th>
+                <td>東京都港区南青山4−7-11<br />プロヴァンス南青山審美館1F</td>
+              </tr>
+              <tr>
+                <th><img src="../img/access.png" alt="アクセス"></th>
+                <td>外苑前駅より　徒歩7分</td>
+              </tr>
+              <tr>
+                <th><img src="../img/mail.png" alt="メールアドレス"></th>
+                <td>info@comoencasa.jp</td>
+              </tr>
+              <tr>
+                <th><img src="../img/tel.png" alt="電話番号"></th>
+                <td><a href="tel:0367210312">03-6721-0312</a></td>
+              </tr>
+            </table>
+
+          </div>
+        </div><!-- box -->
+      </div><!-- content -->
+    </section>
   </div>
 </body>
 
