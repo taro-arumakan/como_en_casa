@@ -1,7 +1,6 @@
 <html lang="en">
 
 <head>
-  <!-- <base href="http://localhost:8080/about_us/" /> -->
   <!-- Google Tag Manager -->
   <script>(function (w, d, s, l, i) {
       w[l] = w[l] || []; w[l].push({
@@ -21,7 +20,7 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
   <link rel="stylesheet" type="text/css" href="../css/style.css" />
   <link rel="stylesheet" type="text/css" href="../css/sp.css" />
-  <link rel="stylesheet" type="text/css" href="assets/style.css?version=202203241053" />
+  <link rel="stylesheet" type="text/css" href="assets/style.css?version=202306191108" />
 
   <!-- Meta Pixel Code -->
   <script>
@@ -39,9 +38,18 @@
     fbq('init', '613232050019138');
     fbq('track', 'PageView');
   </script>
-  <noscript><img height="1" width="1" style="display:none"
-      src="https://www.facebook.com/tr?id=613232050019138&ev=PageView&noscript=1" /></noscript>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=613232050019138&ev=PageView&noscript=1" /></noscript>
   <!-- End Meta Pixel Code -->
+
+  <!-- TikTok Analytics -->
+  <script>
+    !function (w, d, t) {
+      w.TiktokAnalyticsObject = t; var ttq = w[t] = w[t] || []; ttq.methods = ["page", "track", "identify", "instances", "debug", "on", "off", "once", "ready", "alias", "group", "enableCookie", "disableCookie"], ttq.setAndDefer = function (t, e) { t[e] = function () { t.push([e].concat(Array.prototype.slice.call(arguments, 0))) } }; for (var i = 0; i < ttq.methods.length; i++)ttq.setAndDefer(ttq, ttq.methods[i]); ttq.instance = function (t) { for (var e = ttq._i[t] || [], n = 0; n < ttq.methods.length; n++)ttq.setAndDefer(e, ttq.methods[n]); return e }, ttq.load = function (e, n) { var i = "https://analytics.tiktok.com/i18n/pixel/events.js"; ttq._i = ttq._i || {}, ttq._i[e] = [], ttq._i[e]._u = i, ttq._t = ttq._t || {}, ttq._t[e] = +new Date, ttq._o = ttq._o || {}, ttq._o[e] = n || {}; var o = document.createElement("script"); o.type = "text/javascript", o.async = !0, o.src = i + "?sdkid=" + e + "&lib=" + t; var a = document.getElementsByTagName("script")[0]; a.parentNode.insertBefore(o, a) };
+      ttq.load('CI5UN4JC77UFB57TS3R0');
+      ttq.page();
+    }(window, document, 'ttq');
+  </script>
+  <!-- End TikTok Analytics -->
 
 </head>
 
@@ -250,8 +258,7 @@
                         </li>
                         <li class="form_right">
                           <dt class="mfp">メールアドレス <span class="must">必須</span></dt>
-                          <dd class="mfp"><input type="email" data-type="email" data-parent="mailfield" name="メール" size="40"
-                              required="required" /></dd>
+                          <dd class="mfp"><input type="email" data-type="email" data-parent="mailfield" name="メール" size="40" required="required" /></dd>
                         </li>
                       </ul>
                       <ul class="contact_form">
