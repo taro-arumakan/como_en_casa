@@ -73,22 +73,28 @@
     <div class="main_banner animate__animated animate__fadeIn animate__slow">
       <div class="main_banner_contents">
         <div class="ordermaid_text_container animate__animated animate__fadeIn animate__delay-1s">
-          <span class="main_banner_text">
-            一人ひとりに合わせた
+          <span class="main_banner_text main_banner_text_smaller">
+            月極保育料 時間割計算*
           </span>
           <span class="main_banner_text">
-            オーダーメイド保育
+            0歳児 281円~
+          </span>
+          <span class="main_banner_text">
+            1歳児 250円~
           </span>
           <div class="yellow_dot_line" style="width: 262px;"></div>
         </div>
         <div class="organic_text_container animate__animated animate__fadeIn animate__delay-2s animate__slow">
-          <span class="main_banner_text">
+          <span class="main_banner_text main_banner_text_smaller">
+            カリキュラム
+          </span>
+          <span class="main_banner_text main_banner_text_smaller">
             オーガニック給食
           </span>
-          <div class="yellow_dot_line" style="width: 200px;"></div>
           <span class="main_banner_text main_banner_text_smaller">
-            自園給食・園内調理
+            すべて込み
           </span>
+          <div class="yellow_dot_line" style="width: 200px;"></div>
         </div>
         <div class="come_join_us animate__animated animate__fadeIn animate__delay-2s animate__slower">
           <div class="come_join_us_text_fistline">
@@ -103,15 +109,84 @@
     </div>
     <div class="beginners animate__animated animate__fadeIn animate__delay-2s">
       <span class="beginners_text">
-        初めて家族と離れて過ごすお子様でも、
+        *保育利用料軽減制度を利用した場合
       </span>
       <span class="beginners_text">
-        お家と同じくらい安心しのびのびと過ごす
-      </span>
-      <span class="beginners_text">
-        ことの出来る環境を提供いたします。
+        *保育利用料軽減制度による助成額はお住まいの区により異なります
       </span>
     </div>
+
+    <div class="footer_section animate__animated animate__fadeIn animate__delay-2s">
+      <!-- /////////////  お問い合わせフォーム /////////////// -->
+      <section>
+        <div id="contact" class="content">
+          <div class="box cf bg_gr">
+            <div class="box_left2" id="contact2">
+              <h3 class="form_title">メールフォーム</h3>
+              <p>お問い合わせ・ご相談・採用のお申込みはこちらから。まずはお気軽にご連絡ください。<br />
+                託児、見学のご予約はお電話でお願いします。<br />
+                <a href="tel:0364329323">03-6721-0312</a>
+              </p>
+              <form action="sendmail.php" method="POST">
+                <div class="" summary="個人情報">
+                  <div id="mailfield">
+                    <dl class="mailform">
+                      <ul class="contact_form cf">
+                        <li class="form_left">
+                          <input type="hidden" name="お名前" data-unjoin="" value="" />
+                          <dt class="mfp">お名前 <span class="must">必須</span></dt>
+                          <dd class="mfp"><input type="text" name="お名前" size="15" required="required" /></dd>
+                        </li>
+                        <li class="form_right">
+                          <dt class="mfp">メールアドレス <span class="must">必須</span></dt>
+                          <dd class="mfp"><input type="email" data-type="email" data-parent="mailfield" name="メール" size="40" required="required" /></dd>
+                        </li>
+                      </ul>
+                      <ul class="contact_form">
+                        <li>
+                          <dt class="mfp">メッセージ本文 <span class="must">必須</span></dt>
+                          <dd><textarea name="メッセージ本文" rows="6" cols="60" data-max="100" data-min="10" required></textarea>
+                          </dd>
+                        </li>
+                      </ul>
+                    </dl>
+                  </div>
+                  <div class="mfp_buttons">
+                    <button type="submit">送信する</button>
+                  </div>
+                </div>
+              </form>
+    
+            </div>
+    
+            <div class="box_right2" style="padding-top: 30px">
+              <h3 class="form_title">お問い合わせ情報</h3>
+              <table class="contact_info">
+                <tr>
+                  <th><img src="../img/address.png" alt="住所"></th>
+                  <td>東京都港区南青山4−7-11<br />プロヴァンス南青山審美館1F</td>
+                </tr>
+                <tr>
+                  <th><img src="../img/access.png" alt="アクセス"></th>
+                  <td>外苑前駅より　徒歩7分</td>
+                </tr>
+                <tr>
+                  <th><img src="../img/mail.png" alt="メールアドレス"></th>
+                  <td>info@comoencasa.jp</td>
+                </tr>
+                <tr>
+                  <th><img src="../img/tel.png" alt="電話番号"></th>
+                  <td><a href="tel:0367210312">03-6721-0312</a></td>
+                </tr>
+              </table>
+    
+            </div>
+          </div><!-- box -->
+        </div><!-- content -->
+      </section>
+    </div>
+
+
     <div class="applications animate__animated animate__fadeIn animate__delay-2s">
       <span class="applications_text">
         月極園児を人数限定で
@@ -236,73 +311,6 @@
       <div class="footer_logo">
         <img src="assets/images/logo1@2x.png" />
       </div>
-      <!-- /////////////  お問い合わせフォーム /////////////// -->
-      <section>
-        <div id="contact" class="content">
-          <div class="box cf bg_gr">
-            <div class="box_left2" id="contact2">
-              <h3 class="form_title">メールフォーム</h3>
-              <p>お問い合わせ・ご相談・採用のお申込みはこちらから。まずはお気軽にご連絡ください。<br />
-                託児、見学のご予約はお電話でお願いします。<br />
-                <a href="tel:0364329323">03-6721-0312</a>
-              </p>
-              <form action="sendmail.php" method="POST">
-                <div class="" summary="個人情報">
-                  <div id="mailfield">
-                    <dl class="mailform">
-                      <ul class="contact_form cf">
-                        <li class="form_left">
-                          <input type="hidden" name="お名前" data-unjoin="" value="" />
-                          <dt class="mfp">お名前 <span class="must">必須</span></dt>
-                          <dd class="mfp"><input type="text" name="お名前" size="15" required="required" /></dd>
-                        </li>
-                        <li class="form_right">
-                          <dt class="mfp">メールアドレス <span class="must">必須</span></dt>
-                          <dd class="mfp"><input type="email" data-type="email" data-parent="mailfield" name="メール" size="40" required="required" /></dd>
-                        </li>
-                      </ul>
-                      <ul class="contact_form">
-                        <li>
-                          <dt class="mfp">メッセージ本文 <span class="must">必須</span></dt>
-                          <dd><textarea name="メッセージ本文" rows="6" cols="60" data-max="100" data-min="10" required></textarea>
-                          </dd>
-                        </li>
-                      </ul>
-                    </dl>
-                  </div>
-                  <div class="mfp_buttons">
-                    <button type="submit">送信する</button>
-                  </div>
-                </div>
-              </form>
-
-            </div>
-
-            <div class="box_right2" style="padding-top: 30px">
-              <h3 class="form_title">お問い合わせ情報</h3>
-              <table class="contact_info">
-                <tr>
-                  <th><img src="../img/address.png" alt="住所"></th>
-                  <td>東京都港区南青山4−7-11<br />プロヴァンス南青山審美館1F</td>
-                </tr>
-                <tr>
-                  <th><img src="../img/access.png" alt="アクセス"></th>
-                  <td>外苑前駅より　徒歩7分</td>
-                </tr>
-                <tr>
-                  <th><img src="../img/mail.png" alt="メールアドレス"></th>
-                  <td>info@comoencasa.jp</td>
-                </tr>
-                <tr>
-                  <th><img src="../img/tel.png" alt="電話番号"></th>
-                  <td><a href="tel:0367210312">03-6721-0312</a></td>
-                </tr>
-              </table>
-
-            </div>
-          </div><!-- box -->
-        </div><!-- content -->
-      </section>
     </div>
   </div>
 </body>
