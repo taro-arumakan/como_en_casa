@@ -113,6 +113,10 @@ DD_belatedPNG.fix('body *');
     padding: 40px;
   }
 
+  .confirm_btns {
+    text-align: center;
+  }
+
   #confirm input {
     border: 0px solid #FFF;
     padding: 10px 40px 10px 40px;
@@ -121,6 +125,7 @@ DD_belatedPNG.fix('body *');
     font-size: 14px;
     cursor: pointer;
     margin-top: 30px;
+    margin-right: 2%;
     width: 180px;
   }
 
