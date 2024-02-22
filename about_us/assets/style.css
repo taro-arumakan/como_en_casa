@@ -34,18 +34,22 @@ body {
   right: 28%;
   text-align: center;
 }
+
 .top_bar_contact_text {
   color: #FFEA46;
   display: block;
   font-size: 10px;
 }
+
 .top_bar_contact_text_phone_number {
   font-size: 16px;
   font-weight: bold;
 }
+
 .top_bar_contact_text_hours {
   font-size: 14px;
 }
+
 .top_bar_yellow_phone {
   position: absolute;
   width: 69px;
@@ -58,6 +62,7 @@ body {
   .top_bar_contact {
     right: 135px;
   }
+
   .top_bar_yellow_phone {
     right: 37.96px;
   }
@@ -66,6 +71,7 @@ body {
 .blink_me {
   animation: blinker 3.5s linear infinite;
 }
+
 @keyframes blinker {
   50% {
     opacity: 0.11;
@@ -88,34 +94,65 @@ body {
     background-image: url("images/S__14975015_mobile.png");
   }
 }
+
 .ordermaid_text_container {
   position: absolute;
-  top: 30%;
-  left: 59.61px;
+  top: 22%;
+  left: 20.61px;
   text-align: center;
 }
+
+.openinghour_text_container {
+  position: absolute;
+  top: 57%;
+  left: 81.61px;
+  text-align: center;
+}
+
 .yellow_dot_line {
   background-image: url("images/yellow_dot.png");
   height: 4px;
 }
-.organic_text_container {
+
+/* .organic_text_container {
   position: absolute;
   top: 50%;
   left: 86.03px;
   text-align: center;
-}
+} */
 .main_banner_text {
   display: block;
   color: white;
   font-size: 26px;
   font-weight: bold;
 }
+
 .main_banner_text_smaller {
   color: white;
   font-size: 20px;
-}.main_banner_text_smaller_smaller {
+}
+
+.main_banner_text_smaller_smaller {
   color: white;
   font-size: 15px;
+}
+
+.speech_bubble {
+  position: absolute;
+  text-align: center;
+  left: 0px;
+  top: 40%;
+  background-image: url("images/speech_bubble.png");
+  background-size: 100%;
+  width: 395.22px;
+  height: 90px;
+}
+
+.speech_bubble_text {
+  padding-top: 18.98px;
+  color: #696969;
+  font-size: 15px;
+  display: block;
 }
 
 .come_join_us {
@@ -128,36 +165,43 @@ body {
   width: 395.22px;
   height: 90px;
 }
+
 .come_join_us_text_fistline {
   padding-top: 18.98px;
   color: #696969;
   font-size: 19px;
   display: block;
 }
+
 .come_join_us_comoencasa {
   color: #0A6450;
   font-size: 30px;
   font-weight: bold;
   display: inline;
 }
+
 .come_join_us_text {
   color: #696969;
   font-size: 19px;
   display: inline;
 }
+
 @media (max-width: 767px) {
   .come_join_us {
     left: 36.28;
     width: 297.33px;
     height: 67.71px;
   }
+
   .come_join_us_text_fistline {
     padding-top: 14px;
     font-size: 14px;
   }
+
   .come_join_us_comoencasa {
     font-size: 22px;
   }
+
   .come_join_us_text {
     font-size: 14px;
   }
@@ -166,17 +210,19 @@ body {
 .beginners {
   text-align: center;
   color: #696969;
-  font-size: 15px;
+  font-size: 12px;
   width: 318px;
   height: 77px;
   margin-top: 22.47px;
   margin-right: auto;
   margin-left: auto;
 }
+
 .beginners_text {
   display: block;
-  line-height: 31px;
+  margin: 10px 0;
 }
+
 .applications {
   text-align: center;
   background-image: url("images/green_rect.png");
@@ -188,6 +234,7 @@ body {
   height: 174px;
   padding-top: 33px;
 }
+
 .applications_text {
   font-size: 20px;
   text-decoration: underline;
@@ -199,20 +246,24 @@ body {
 .food_section {
   text-align: center;
 }
+
 .food_picture {
   margin-top: 35.11;
   margin-left: auto;
   margin-right: auto;
 }
+
 .food_picture img {
   width: 355.55px;
   height: 209.49px;
 }
+
 .about_food_text {
   text-align: center;
   margin-right: auto;
   margin-left: auto;
 }
+
 .about_food_title {
   font-family: Futura;
   letter-spacing: 5.16px;
@@ -226,11 +277,13 @@ body {
   color: #9E7F5F;
   margin-top: 15px;
 }
+
 .about_food_strong {
   font-size: 25px;
   color: #9E7F5F;
   margin-top: 13px;
 }
+
 .about_food_details {
   font-size: 15px;
   margin-top: 26px;
@@ -246,10 +299,12 @@ body {
     height: 466px;
     display: flex;
   }
+
   .food_picture {
     flex: 50%;
     margin-top: 81.7px;
   }
+
   .food_picture img {
     width: 507.5px;
     height: 299.0px;
@@ -259,6 +314,7 @@ body {
     flex: 50%;
     /* margin-right: 115.5px; */
   }
+
   .about_food_details {
     width: 377px;
   }
@@ -279,6 +335,7 @@ body {
   margin-right: auto;
   margin-left: auto;
 }
+
 .age_picture img {
   width: 216px;
   height: 145px;
@@ -297,11 +354,13 @@ body {
   font-size: 15px;
   color: #98D5DA;
 }
+
 .age_details_strong {
   margin-top: 18px;
   font-size: 20px;
   color: #696969;
 }
+
 .age_details_weak {
   margin-top: 24px;
   font-size: 16px;
@@ -315,14 +374,16 @@ body {
     height: 226px;
     padding-bottom: 0px;
   }
+
   .age_picture {
     flex: 50%;
     float: right;
     margin-top: 22px;
   }
+
   .age_picture img {
     width: 273px;
-    height: 182px;  
+    height: 182px;
   }
 
   .age_text {
@@ -334,9 +395,11 @@ body {
 .age_subtitle {
   margin-top: 8.83px;
 }
+
 .age_details_strong {
   margin-top: 10px;
 }
+
 .age_details_weak {
   margin-top: 10px;
 }
@@ -349,13 +412,16 @@ body {
   border-bottom: 1px dashed #9E7F5F;
   padding-bottom: 34.2px;
 }
-.price_section span{
+
+.price_section span {
   display: block;
 }
-.price_picture img{
+
+.price_picture img {
   width: 321px;
   height: 316px;
 }
+
 .price_title {
   font-family: Futura;
   letter-spacing: 5.16px;
@@ -363,26 +429,31 @@ body {
   font-size: 43px;
   color: #98D5DA;
 }
+
 .price_subtitle {
   margin-top: 34.41px;
   color: #9E7F5F;
   font-size: 18px;
 }
+
 .price_details {
   margin-top: 30px;
   color: #696969;
   font-size: 22px;
   line-height: 45px;
 }
+
 .price_tips {
   margin-top: 59px;
   color: #9E7F5F;
   font-size: 22px;
   text-decoration: underline;
 }
+
 .price_with_tips_arrow {
   margin-top: 15.74px;
 }
+
 .price_with_tips {
   margin-top: 11.44px;
   margin-left: auto;
@@ -394,18 +465,22 @@ body {
   background-image: url("images/green_rect.png");
   background-size: 100% 100%;
 }
+
 .price_with_tips_for {
   color: #696969;
   font-size: 18px;
 }
+
 .price_with_tips_monthly_price {
   color: #0A6450;
   font-size: 48px;
 }
+
 .price_with_tips_shibuya {
   color: #696969;
   font-size: 15px;
 }
+
 .price_included {
   width: 318px;
   height: 62px;
@@ -421,13 +496,15 @@ body {
     /* height: 226px; */
     padding-bottom: 60px;
   }
+
   .price_picture {
     flex: 50%;
     margin-top: 101px;
   }
+
   .price_picture img {
     width: 587px;
-    height: 577.86px;  
+    height: 577.86px;
   }
 
   .price_text {
@@ -447,6 +524,7 @@ body {
   border-bottom: 2px solid #0A6450;
   color: #0A6450;
 }
+
 .childcare_fee_support_title_section {
   margin-top: 40px;
   background-image: url("images/casa.png");
@@ -456,16 +534,20 @@ body {
   height: 76.37px;
   padding: 20px 0;
 }
+
 .childcare_fee_support_title {
   font-size: 18px;
 }
+
 .childcare_fee_support_shibuya {
   font-size: 15px;
 }
+
 .childcare_fee_support_amount {
   margin-top: 17px;
   font-size: 22px;
 }
+
 .childcare_fee_support_details {
   margin-left: 28.63px;
   margin-right: 28.63px;
@@ -473,12 +555,14 @@ body {
   font-size: 15px;
   line-height: 31px;
 }
+
 .childcare_fee_support_notes {
   margin-left: 28.63px;
   margin-right: 28.63px;
   margin-top: 35px;
   font-size: 12px;
 }
+
 .childcare_fee_support_notes span {
   display: block;
 }
@@ -493,26 +577,32 @@ body {
   text-align: center;
   margin-top: 80px;
 }
+
 .footer_logo {
   position: relative;
   top: -34px;
 }
+
 .footer_logo img {
   width: 113px;
   height: 113px;
 }
+
 .footer_url_here {
   margin-top: 32px;
 }
+
 .footer_url_here img {
-  width:  263px;
+  width: 263px;
   height: 62px;
 }
+
 .footer_url {
   margin-top: 17px;
   font-size: 14px;
   color: #0A6450;
 }
+
 @media (min-width: 1280px) {
   #como_en_casa {
     zoom: 120%;
@@ -522,11 +612,13 @@ body {
 #contact {
   margin-bottom: 0rem;
 }
+
 @media (min-width: 681px) {
   .box_left2 {
     padding-top: 30px;
   }
 }
+
 @media (max-width: 680px) {
   #contact .content {
     margin-top: 0px;
@@ -534,14 +626,17 @@ body {
     margin-right: auto;
     margin-bottom: 0px;
   }
+
   #contact .bg_gr {
     margin-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
   }
+
   .box_left {
     margin-top: 0px;
   }
+
   #contact h3 {
     margin: 0;
   }
