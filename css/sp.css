@@ -124,7 +124,7 @@ h3.monthly:before{display:none;}
 /*追加ここまで*/
 
 #recruitment table{width:100%;}
-#recruitment table th{width:80px;}
+#recruitment table th{width:24%;}
 
 #slide_rental_wrapper{padding:14px;}
 #slide_rental_wrapper .bx-wrapper{height:auto;}
