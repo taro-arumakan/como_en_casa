@@ -132,6 +132,11 @@ EOF;
 //メール送信の成功メッセージ設定(HTML使用可。"EOF"は消さないでください。)
 
 $thanks = <<<EOF
+
+<!-- Squadbeyond site tag - beyond cv event tag: ade0f67a-aa72-49d4-91e4-63db5687e6f9 -->
+<img src='https://sb.ecnokamisama.com/conversion_event_tags/ade0f67a-aa72-49d4-91e4-63db5687e6f9' alt='' width='0' height='0' style='display: none;' />
+<iframe src='https://sb.ecnokamisama.com/conversion_event_tags/ade0f67a-aa72-49d4-91e4-63db5687e6f9/sessions' width='0' height='0' style='display: none;'></iframe>
+
 <p class='thnk'><img src='../img/thanks_thanks.png'></p>
 
 <h2><img src='../img/thankyou.png'><br>送信完了<span>Complete!<div class='line_d'></div></span></h2>
