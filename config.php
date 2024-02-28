@@ -40,7 +40,7 @@ function submit()
 		$_SESSION['mailflg'] = 1;
 		$_SESSION['remailflg'] = $GLOBALS['remailflg'];
 		$_SESSION['remail'] = $GLOBALS['remailAdd'];
-		echo "<div class='confirm_btns'><span class='buckbtns'><input type='button' class='resetit' value='入力画面に戻る' alt='入力画面に戻る' onclick='history.back()' /></span><span class='gobtns'><input type='submit' class='sendit' name='submit' value='送信' /></span></div>\n";
+		echo "<div class='confirm_btns'><span class='buckbtns'><input type='button' class='resetit' value='入力画面に戻る' alt='入力画面に戻る' onclick='history.back()' /></span><span class='gobtns'><input type='submit' class='sendit' name='submit' value='送信' onclick=\"fbq('track', 'Purchase', {value: 0.01, currency: 'JPY'});\" /></span></div>\n";
 	}
 }
 

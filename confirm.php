@@ -18,15 +18,43 @@
   <!-- close.SEO -->
 
   <!-- links -->
-  <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon" />
-  <link rel="apple-touch-icon" href="img/apple-touch-icon.png" />
-  <link rel="stylesheet" href="css/style.css" type="text/css" />
-  <link rel="stylesheet" href="css/sp.css" type="text/css" />
-  <script src="js/modernizr-2.6.2.min.js"></script>
+  <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon" />
+  <link rel="apple-touch-icon" href="../img/apple-touch-icon.png" />
+  <link rel="stylesheet" href="../css/style.css" type="text/css" />
+  <link rel="stylesheet" href="../css/sp.css" type="text/css" />
+  <script src="../js/modernizr-2.6.2.min.js"></script>
   <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
   <script>
-    window.jQuery || document.write('<script src="js/jquery-1.8.2.min.js"><\/script>')
+    window.jQuery || document.write('<script src="../js/jquery-1.8.2.min.js"><\/script>')
   </script>
+  <script src="../js/common.js"></script>
+
+  <!-- Meta Pixel Code -->
+  <script>
+    ! function(f, b, e, v, n, t, s) {
+      if (f.fbq) return;
+      n = f.fbq = function() {
+        n.callMethod ?
+          n.callMethod.apply(n, arguments) : n.queue.push(arguments)
+      };
+      if (!f._fbq) f._fbq = n;
+      n.push = n;
+      n.loaded = !0;
+      n.version = '2.0';
+      n.queue = [];
+      t = b.createElement(e);
+      t.async = !0;
+      t.src = v;
+      s = b.getElementsByTagName(e)[0];
+      s.parentNode.insertBefore(t, s)
+    }(window, document, 'script',
+      'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '234670524096572');
+    fbq('track', 'PageView');
+  </script>
+  <noscript><img height="1" width="1" style="display:none" src="https://www.facebook.com/tr?id=234670524096572&ev=PageView&noscript=1" /></noscript>
+  <!-- End Meta Pixel Code -->
+
   <script src="js/common.js"></script>
 
   <!-- close.links -->
@@ -87,6 +115,10 @@ DD_belatedPNG.fix('body *');
     padding: 40px;
   }
 
+  .confirm_btns {
+    text-align: center;
+  }
+
   #confirm input {
     border: 0px solid #FFF;
     padding: 10px 40px 10px 40px;
@@ -95,6 +127,7 @@ DD_belatedPNG.fix('body *');
     font-size: 14px;
     cursor: pointer;
     margin-top: 30px;
+    margin-right: 2%;
     width: 180px;
   }
 
