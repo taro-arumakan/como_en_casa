@@ -103,7 +103,7 @@ DD_belatedPNG.fix('body *');
   <meta property="og:title" content="コモエンカサ">
   <meta property="og:type" content="website">
   <meta property="og:description" content="コモエンカサ　表参道駅徒歩2分にあるプレスクール託児所。お母様とお子様に優しい環境をご提供しています。">
-  <meta property="og:url" content="http://www.comoencasa.jp/">
+  <meta property="og:url" content="https://www.comoencasa.jp/">
   <meta property="og:image" content="icon">
   <meta property="og:site_name" content="COMO EN CASA">
   <meta property="og:email" content="info@comoencasa.jp">

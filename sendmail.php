@@ -105,7 +105,7 @@ $sign = <<<EOF
 　コモエンカサ / como en casa
 　東京都渋谷区神宮前4-3-15 東京セントラル表参道
 　TEL / 03-6432-9323　FAX / 011-832-8698
-　http://www.comoencasa.jp/
+　https://www.comoencasa.jp/
 ━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 EOF;
